@@ -14,7 +14,7 @@ par(mfrow = c(2,2))
 ## Top left: Global Active Power
 
 with(data, plot(DateTime, Global_active_power, type="l",
-     ylab = "Global Active Power (kilowatts)", xlab = ""))
+     ylab = "Global Active Power", xlab = ""))
 
 
 ## Top right: Voltage
